@@ -26,7 +26,7 @@ $(document).ready(function() {
         return list;
     }
 
-    // Add the contents of options[0] to #foo:
-    document.getElementById('foo').appendChild(makeUL(icecreams[0]));
+    // Add the contents of options[] to #foo:
+    document.getElementById('foo').appendChild(makeUL(icecreams));
 
 });
